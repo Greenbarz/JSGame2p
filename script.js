@@ -36,7 +36,7 @@ const init = function () {
   document.getElementById('music').play();
   setTimeout(() => {
     document.getElementById('music').play();
-  }, 1000); // Adjust the delay as needed (in milliseconds)
+  }, 10); // Adjust the delay as needed (in milliseconds)
 };
 init();
 
